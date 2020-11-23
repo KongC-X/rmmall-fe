@@ -1,37 +1,22 @@
-# rmmall-fe
+项目初始化步骤
 
-#### 介绍
-软工课设
+1.安装 nodejs 环境,推荐使用 v4.4.7
+下载地址 : https://nodejs.org/download/release/v4.4.7/
 
-#### 软件架构
-软件架构说明
+2.全局安装 webpack v^1.15.0
+命令: (sudo) npm install -g webpack@^1.15.0
 
+3.全局安装 webpack-dev-server v^1.16.5
+命令: (sudo) npm install -g webpack-dev-server@^1.16.5
 
-#### 安装教程
+4.在慕课网上下载源码，解压缩
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+5.在项目根目录执行 npm 初始化
+命令: npm install (--registry=https://registry.npm.taobao.org)
 
-#### 使用说明
+6.启动项目
+开发模式: npm run dev (windows 系统上为 npm run dev_win)
+生产模式: npm run dist (windows 系统上为 npm run dist_win)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+7.开发模式下预览项目
+访问：http://localhost:8088/dist/view/index.html
