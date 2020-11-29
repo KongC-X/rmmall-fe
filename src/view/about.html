@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <%= require('html-loader!./layout/head-common.html') %>
+    <title><%= htmlWebpackPlugin.options.title%>--happyrmmall电商平台</title>
+    </head>
+    <body>
+    <%= require('html-loader!./layout/nav.html') %>
+   		
+     <%= require('html-loader!./layout/header.html') %>	
+     <div class="crumb">
+       <div class="w">
+         <div class="crumb-con">
+           <a class="link" href="./index.html">RMMall</a>
+           <span>></span>
+           <span class="link-text"><%= htmlWebpackPlugin.options.title%></span>
+         </div>
+       </div>
+     </div>
+     <div class="page-wrap w">
+          <%= require('html-loader!./layout/nav-side.html') %>
+          <div class="content with-nav">
+            <div class="panel">
+              <div class="panel-title"> <%= htmlWebpackPlugin.options.title%></div>
+              <div class="panel-body">
+                我们是一个十分牛逼的电商网站，瑞萌萌，永远的神！
+              </div>
+            </div>
+          </div>
+     </div>
+    <%= require('html-loader!./layout/footer.html') %>
+       
+    </body>
+</html>

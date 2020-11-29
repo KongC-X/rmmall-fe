@@ -22,6 +22,7 @@ var _mm = {
         }
         //请求数据错误
         else if(1 === res.status){
+          console.log(res);
           typeof param.error === 'function' && param.error(res.msg);
         }
       },
